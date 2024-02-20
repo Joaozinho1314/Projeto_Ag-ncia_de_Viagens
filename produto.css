@@ -1,5 +1,5 @@
 *{
-    font-family: "Montserrat", sans-serif;;
+    font-family: "Montserrat", sans-serif;
 }
 nav{
     position: absolute;
@@ -82,6 +82,8 @@ header{
 }
 
 form{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
     display: inline-block;
     text-align: center;
     width: 30%;
