@@ -1,0 +1,124 @@
+*{
+    font-family: "Montserrat", sans-serif;;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #020202;
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.servicos h2{
+     
+    color : #000000 ;
+}
+
+.servicos p{
+    color: #000000;
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid #000000;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #ffffff;
+    
+}
+header{
+    background-color: #57B1FA;
+    padding: 20px 0 ;
+}
+
+.caixa{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.servicos li:hover h2{
+    font-size: 35px;
+}
+
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao-servico{
+    font-size: 18px;
+}
+
+form{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 5% 34.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid #000000;
+    border-radius: 100px;
+}
+.historia li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.historia p{    
+    text-indent: 10px;
+    display: inline-block;
+    text-align: left ;
+    width: 30%;
+    vertical-align: top;
+    margin: auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid #000000;
+    border-radius: 30px;
+}
+
+
+footer {
+    text-align: right;
+    background-color: #00aeff;
+    padding: 30px 20px;
+}
+
+.copyright {
+    font-size: 13px;
+    color:#ffffff;
+    
+}
